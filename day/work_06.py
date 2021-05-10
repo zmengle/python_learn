@@ -39,5 +39,11 @@ for item in month_arr:
     else:
         day_count += day
         break
-
+#输出
 print("日期：%d年%d月%d日 是第%d天" % (year, month, day, day_count))
+
+# 预期结果
+# 请输入年：2021
+# 请输入月：12
+# 请输入天：12
+# 日期：2021年12月12日 是第346天
